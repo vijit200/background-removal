@@ -6,7 +6,7 @@ import os
 cap = cv2.VideoCapture(0)
 cap.set(3,640)
 cap.set(4,480)
-cap.set(cv2.CAP_PROP_FPS,60)
+#cap.set(cv2.CAP_PROP_FPS,60)
 segment = SelfiSegmentation()
 fpsreader = cvzone.FPS()
 #imbg = cv2.imread(r"images\wallpapersden.com_beautiful-cool-mountains-hd_640x480.jpg")
